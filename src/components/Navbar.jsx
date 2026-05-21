@@ -45,11 +45,11 @@ const Navbar = () => {
                 {brand.mark}
               </div>
               <div>
-                <div className="flex items-center gap-3">
-                  <p className="font-display text-lg font-semibold leading-none">{brand.name}</p>
-                  <span className="rounded-full bg-emerald-500 px-2 py-1 text-xs font-bold text-white">PURE VEG</span>
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <p className="font-display text-base sm:text-lg font-semibold leading-none">{brand.name}</p>
+                  <span className="hidden sm:inline-block rounded-full bg-emerald-500 px-2 py-1 text-xs font-bold text-white">PURE VEG</span>
                 </div>
-                <p className="text-xs uppercase tracking-[0.35em] text-[color:var(--text-secondary)]">
+                <p className="hidden sm:block mt-1 text-xs uppercase tracking-[0.35em] text-[color:var(--text-secondary)]">
                   {brand.subtitle}
                 </p>
               </div>

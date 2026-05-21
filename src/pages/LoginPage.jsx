@@ -7,12 +7,12 @@ const LoginPage = () => (
   <PageTransition>
     <section className="container-shell py-8">
       <div className="grid gap-8 overflow-hidden rounded-[36px] border border-black/5 bg-white/80 shadow-card backdrop-blur-xl dark:border-white/10 dark:bg-neutral-950/80 lg:grid-cols-[0.95fr_1.05fr]">
-        <div className="relative min-h-[320px] overflow-hidden bg-gradient-to-br from-primary via-rose-500 to-orange-400 p-8 text-white sm:p-10">
+        <div className="relative min-h-[180px] sm:min-h-[240px] lg:min-h-[320px] overflow-hidden bg-gradient-to-br from-primary via-rose-500 to-orange-400 p-6 sm:p-10 text-white flex items-center">
           <div className="absolute right-0 top-0 h-48 w-48 rounded-full bg-white/10 blur-3xl" />
-          <div className="relative">
+          <div className="relative w-full">
             <span className="chip border-white/20 bg-white/10 text-white">Welcome back</span>
-            <h1 className="mt-6 font-display text-4xl font-bold">Log in to {brand.name}</h1>
-            <p className="mt-4 max-w-md text-sm leading-6 text-white/80">
+            <h1 className="mt-3 sm:mt-6 font-display text-2xl sm:text-4xl font-bold leading-tight">Log in to {brand.name}</h1>
+            <p className="mt-2 sm:mt-4 max-w-md text-xs sm:text-sm leading-relaxed text-white/80">
               Revisit your saved restaurants, your cart, and your favorite vegetarian
               dishes with a clean account screen that fits the rest of the site.
             </p>

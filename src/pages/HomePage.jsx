@@ -78,7 +78,7 @@ const HomePage = () => {
           title="From quick veg deliveries to cozy cafe tables"
           description="Browse pure veg spots by craving, from family thalis and paneer comforts to fresh bowls, bakes, and dessert runs."
         />
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+        <div className="grid gap-3 grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6">
           {categories.map((category, index) => (
             <motion.div
               key={category.id}

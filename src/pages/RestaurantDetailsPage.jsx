@@ -47,19 +47,19 @@ const RestaurantDetailsPage = () => {
             src={restaurant.coverImage}
             alt={restaurant.name}
             onError={handleImageError}
-            className="food-image h-[360px]"
+            className="food-image h-[200px] sm:h-[360px]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 p-6 text-white sm:p-8">
+          <div className="absolute inset-x-0 bottom-0 p-4 sm:p-8 text-white">
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
                 <span className="chip border-white/20 bg-white/10 text-white">
                   {restaurant.mode}
                 </span>
-                <h1 className="mt-4 font-display text-4xl font-bold sm:text-5xl">
+                <h1 className="mt-2 sm:mt-4 font-display text-2xl sm:text-5xl font-bold">
                   {restaurant.name}
                 </h1>
-                <p className="mt-3 max-w-2xl text-sm text-white/80 sm:text-base">
+                <p className="mt-2 max-w-2xl text-xs sm:text-base text-white/80 line-clamp-1 sm:line-clamp-none">
                   {restaurant.description}
                 </p>
               </div>
@@ -86,28 +86,28 @@ const RestaurantDetailsPage = () => {
               title="Why people keep coming back"
               description={restaurant.description}
             />
-            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-              <div className="rounded-[24px] bg-primary/5 p-4">
-                <p className="text-sm text-[color:var(--text-secondary)]">Cuisine</p>
-                <p className="mt-2 font-semibold">{restaurant.cuisine.join(', ')}</p>
+            <div className="grid gap-3 grid-cols-2 xl:grid-cols-4">
+              <div className="rounded-[20px] bg-primary/5 p-3 sm:p-4">
+                <p className="text-xs text-[color:var(--text-secondary)]">Cuisine</p>
+                <p className="mt-1 text-sm sm:text-base font-semibold leading-tight">{restaurant.cuisine.join(', ')}</p>
               </div>
-              <div className="rounded-[24px] bg-primary/5 p-4">
-                <p className="text-sm text-[color:var(--text-secondary)]">Rating</p>
-                <p className="mt-2 inline-flex items-center gap-1 font-semibold">
+              <div className="rounded-[20px] bg-primary/5 p-3 sm:p-4">
+                <p className="text-xs text-[color:var(--text-secondary)]">Rating</p>
+                <p className="mt-1 inline-flex items-center gap-1 text-sm sm:text-base font-semibold">
                   <HiStar className="text-amber-400" />
                   {restaurant.rating}
                 </p>
               </div>
-              <div className="rounded-[24px] bg-primary/5 p-4">
-                <p className="text-sm text-[color:var(--text-secondary)]">Delivery</p>
-                <p className="mt-2 inline-flex items-center gap-1 font-semibold">
+              <div className="rounded-[20px] bg-primary/5 p-3 sm:p-4">
+                <p className="text-xs text-[color:var(--text-secondary)]">Delivery</p>
+                <p className="mt-1 inline-flex items-center gap-1 text-sm sm:text-base font-semibold">
                   <HiOutlineClock />
                   {restaurant.deliveryTime}
                 </p>
               </div>
-              <div className="rounded-[24px] bg-primary/5 p-4">
-                <p className="text-sm text-[color:var(--text-secondary)]">Price for two</p>
-                <p className="mt-2 font-semibold">{formatCurrency(restaurant.priceForTwo)}</p>
+              <div className="rounded-[20px] bg-primary/5 p-3 sm:p-4">
+                <p className="text-xs text-[color:var(--text-secondary)]">Price for two</p>
+                <p className="mt-1 text-sm sm:text-base font-semibold">{formatCurrency(restaurant.priceForTwo)}</p>
               </div>
             </div>
           </div>

@@ -20,12 +20,12 @@ A modern, highly interactive, and premium **Pure Vegetarian** food delivery plat
 
 ## 🛠️ Tech Stack
 
-- **Framework**: React 18 (Vite)
-- **Styling**: Tailwind CSS & Custom CSS
-- **Routing**: React Router DOM (`HashRouter`)
-- **Animation**: Framer Motion
-- **State & Persistence**: React Context API & LocalStorage
-- **Icons**: React Icons (Lucide, Tabler, Phosphor)
+- Framework : React 18 (Vite)
+- Styling: Tailwind CSS & Custom CSS
+- Routing: React Router DOM (`HashRouter`)
+- Animation: Framer Motion
+- State & Persistence: React Context API & LocalStorage
+- Icons: React Icons (Lucide, Tabler, Phosphor)
 
 ---
 
