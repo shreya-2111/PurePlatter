@@ -4,6 +4,9 @@ A modern, highly interactive, and premium **Pure Vegetarian** food delivery plat
 
 ---
 
+## 🌐 Live Demo
+🔗 [Pure Platter](https://shreya-2111.github.io/PurePlatter/)
+
 ## ✨ Features
 
 - **🛡️ 100% Veg Content**: Zero meat, seafood, or egg references. Fully eggless and vegetarian.
