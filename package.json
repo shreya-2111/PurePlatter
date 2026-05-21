@@ -1,9 +1,9 @@
 {
-  "name": "zomato-clone",
+  "name": "pure-platter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://your-github-username.github.io/zomato-clone",
+  "homepage": "https://shreya-2111.github.io/PurePlatter",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

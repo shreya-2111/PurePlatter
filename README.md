@@ -30,15 +30,15 @@ A modern, highly interactive, and premium **Pure Vegetarian** food delivery plat
 
 ```bash
 # Clone the repository
-git clone https://github.com/shreyaraval/zomato-clone.git
-cd zomato-clone
+git clone https://github.com/shreya-2111/PurePlatter.git
+cd PurePlatter
 
 # Install dependencies
 npm install
 
-# Run dev server (accessible at http://localhost:5173/zomato-clone/)
+# Run dev server (accessible at http://localhost:5173/PurePlatter/)
 npm run dev
 
 # Build for production
 npm run build
-
+```
